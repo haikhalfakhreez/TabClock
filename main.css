@@ -1,0 +1,29 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(120deg, #1a1a1e 15%, #232329 50%, #2a2a2e 85%, #2f2f34 100%);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; 
+    position: relative;
+}
+.clock-display {
+    color: #a7a7a7;
+    font-size: clamp(5em, 5em + 8vw, 13em);
+}
+.clock-display-below {
+    color: #a7a7a7;
+    font-size: clamp(1em, 1em + 1.4vw, 2.5em);
+    font-weight: 300;
+}
+.date-display {
+    color: #a7a7a7;
+    font-size: clamp(1em, 1em + 1.5vw, 2.5em);
+    font-weight: 300;
+}
