@@ -4,6 +4,7 @@
 }
 body {
     background-image: linear-gradient(120deg, #1a1a1e 15%, #232329 50%, #2a2a2e 85%, #2f2f34 100%);
+    user-select: none;
 }
 .container {
     display: flex;
